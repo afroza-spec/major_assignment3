@@ -166,7 +166,7 @@
     }
 
     function upgrade() {
-        d3.json("Libs/authorsdatainfo.json").then(function (data) {
+        d3.json("https://afroza-spec.github.io/major_assignment3/authorsdatainfo.json").then(function (data) {
             const nodes = data.nodes;
             const edges = data.links;
             console.log("start")
